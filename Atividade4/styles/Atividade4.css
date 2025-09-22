@@ -1,0 +1,40 @@
+body {
+    padding: 10px;
+}
+
+.container-box {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100px 150px;
+    grid-template-areas: 'a a b b'
+                         'a a b b'
+                         'a a b b'
+                         'a a b b'
+                         'a a b b'
+                         'a a b b'
+                         'c c d d';
+}
+
+.box {
+    background-color: #929ae9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+}
+
+.c {
+    grid-area: c;
+}
+
+.d {
+    grid-area: d;
+}
+
